@@ -14,6 +14,9 @@ body {
     float: left;
     width: 50%;
     padding-right: 20px;
+    border-right-style: dotted; /*1 made border right style dotted */
+    border-right-color: #bb5050; /*2 made border right color dark red*/
+    border-right-width: thick; /*3 made border right width thick */
   }
   .right-column {
     float: right;
@@ -23,11 +26,6 @@ body {
 }
 * {
   box-sizing: border-box;
-}
-.left-column {
-  border-right-style: dotted; /*1 made border right style dotted */
-  border-right-color: #bb5050; /*2 made border right color dark red*/
-  border-right-width: thick; /*3 made border right width thick */
 }
 h1 {
   font-size: 25px; /*4 changed h1 font size to 25px*/
@@ -82,3 +80,4 @@ a {
   font-weight: bold; /*33 made publish time font weight bold */
   font-family: cursive; /*34 made publish time font family cursive*/
   color: #bb5050; /*35 made publish time font color dark red*/
+}

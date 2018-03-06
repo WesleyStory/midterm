@@ -7,15 +7,17 @@ body {
   margin: 0 auto;
   padding: 50px;
   border: 10px ridge blue;
-  overflow: auto; 
+  overflow: auto;
 }
 .left-column {
   float: left;
   width: 50%;
+  padding-right: 20px;
 }
 .right-column {
   float: right;
   width: 50%;
+  padding-left: 20px;
 }
 * {
   box-sizing: border-box;

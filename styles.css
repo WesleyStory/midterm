@@ -6,7 +6,7 @@ body {
   background-color: #EEEEEE;
   margin: 0 auto;
   padding: 50px;
-  border: 10px ridge blue;
+  border: 10px ridge #bb5050;
   overflow: auto;
 }
 @media(min-width: 650px) {
@@ -24,3 +24,61 @@ body {
 * {
   box-sizing: border-box;
 }
+.left-column {
+  border-right-style: dotted; /*1 made border right style dotted */
+  border-right-color: #bb5050; /*2 made border right color dark red*/
+  border-right-width: thick; /*3 made border right width thick */
+}
+h1 {
+  font-size: 25px; /*4 changed h1 font size to 25px*/
+  font-family: monospace; /*5 changed h1 font-family to monospace*/
+  font-weight: lighter; /*6 made font weight lighter*/
+  border-bottom: 3px solid gray; /*7 added border to bottom of h1*/
+}
+img {
+  display: block; /*8 made the image diplay block style*/
+  margin: 0 auto; /*9 centered image*/
+  margin-top: 10px; /*10 increased margins on top of image*/
+  margin-bottom: 10px; /*11 increased margins on bottom of image*/
+  width: 80%; /*12 made image 80% width*/
+  border-width: thick; /*13  made image border width thick*/
+  border-style: ridge; /*14  made image border style ridged*/
+  border-color: #bb5050; /*15 made image border color dark red*/
+  padding: 30px; /*16 gave image padding of 30px*/
+}
+a {
+  text-decoration: none; /*17 took away the underlining of the links*/
+  color: #bb5050; /*18 changed the link colors from blue to dark red*/
+}
+.story-text {
+  font-family: monospace; /*19 changed the story text font family to monospace*/
+  border-width: thick; /*20 changed the story text border width to thick*/
+  border-style: inset; /*21  changed the story text border style to inset*/
+  border-color: white; /*22  made the story text border color white*/
+  padding: 30px; /*23 made the padding of the story text 30px*/
+}
+.byline {
+  font-size: 20px; /*24 changed font-size of the byline to 20px*/
+  font-family: monospace; /*25 changed byline font family to monospace*/
+  text-transform: uppercase; /*26 made the byline all uppercase letters*/
+  color: #555555; /*27 made the byline a light gray color*/
+}
+.paragraph1 {
+  color: #333333; /*28 changed paragraph1 color to dark gray*/
+}
+.paragraph2 {
+  color: #bb5050; /*29 changed paragraph2 color to dark red*/
+}
+.paragraph3 {
+  color: #333333; /*30 changed paragraph3 color to dark gray*/
+}
+.paragraph4{
+  color: #bb5050; /*31 changed paragraph4 color to dark red*/
+}
+.paragraph5 {
+  color: #333333; /*32 changed paragraph5 color to dark gray*/
+}
+.publish-time {
+  font-weight: bold; /*33 made publish time font weight bold */
+  font-family: cursive; /*34 made publish time font family cursive*/
+  color: #bb5050; /*35 made publish time font color dark red*/

@@ -6,5 +6,17 @@ body {
   background-color: #EEEEEE;
   margin: 0 auto;
   padding: 50px;
-  border: 10px ridge blue; 
+  border: 10px ridge blue;
+  overflow: auto; 
+}
+.left-column {
+  float: left;
+  width: 50%;
+}
+.right-column {
+  float: right;
+  width: 50%;
+}
+* {
+  box-sizing: border-box;
 }
